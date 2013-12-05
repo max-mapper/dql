@@ -1,6 +1,6 @@
 {
   "name": "dql",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "module/CLI/command line utility for converting sql databases to line delimited json (ldjson) streams",
   "main": "index.js",
   "bin": {

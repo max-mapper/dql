@@ -1,0 +1,11 @@
+{
+  "name": "dql",
+  "version": "0.0.1",
+  "description": "command line utility for converting sql databases to line delimited json (ldjson) streams",
+  "main": "index.js",
+  "bin": {
+    "dql": "cli.js"
+  },
+  "author": "max ogden",
+  "license": "BSD-2-Clause"
+}

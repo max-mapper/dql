@@ -1,7 +1,7 @@
 {
   "name": "dql",
   "version": "0.1.0",
-  "description": "module/CLI/command line utility for converting sql databases to line delimited json (ldjson) streams",
+  "description": "module/CLI/command line utility for converting sql (sqlite) databases to line delimited json (ldjson) streams",
   "main": "index.js",
   "bin": {
     "dql": "cli.js"
@@ -12,5 +12,17 @@
     "sqlite3": "~2.1.19",
     "ldjson-stream": "0.0.1",
     "streamsql": "~0.4.1"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/dql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/dql/issues"
+  },
+  "homepage": "https://github.com/maxogden/dql"
 }
